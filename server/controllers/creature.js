@@ -12,7 +12,9 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const creature = new Creature(req.body);
   creature.save(() => {
-    res.send({ creature });
+    Creature.find((err, creatures) => {
+      res.send({ creatures });
+    });
   });
 });
 
