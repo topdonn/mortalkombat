@@ -1,4 +1,4 @@
-/* eslint-disable jsx-quotes, react/prop-types */
+/* eslint-disable jsx-quotes, react/prop-types, max-len */
 
 import React from 'react';
 import DisplayWeapons from './DisplayWeapons';

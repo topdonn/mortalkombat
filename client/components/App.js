@@ -1,9 +1,9 @@
+/* eslint-disable react/prefer-stateless-function, react/prop-types */
 import React from 'react';
 import { Link } from 'react-router';
 
 export default class App extends React.Component {
-  render(){
-
+  render() {
     return (
       <div>
         <h1>Mortak Kombat - Lets Fight!</h1>
